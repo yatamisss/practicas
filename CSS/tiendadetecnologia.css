@@ -1,0 +1,43 @@
+h1{
+    background-color: lightskyblue;
+    
+}
+
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titulo{
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.producto1{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    background-color: navajowhite;
+    font-family: fantasy;
+    border-radius: 20px;
+    margin-right: 1000px;
+    width: 70px;
+
+}
+
+.descripcionAlexa{
+    float: right;
+    margin-left: 50px;
+}
+
+.producto2{
+    flex-direction: row;
+    display: flex;
+}
+
+.producto3{
+    flex-direction: row;
+    display: flex;
+}
+

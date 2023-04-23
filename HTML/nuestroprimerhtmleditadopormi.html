@@ -1,0 +1,144 @@
+<!--HTML significa Hipertext Markup Language; no es un lenguaje de programacion como tal
+nos permite tener la estructura de como esta estructurada la pagina, para crear 
+esta estructura basica es signo de interrogacion + tabulador -->
+<!--etiqueta de apertura y eqiqueta de cierre lleva un slash -->
+<!DOCTYPE html>
+<html lang="en">
+<!--esta siempre va a tener informacion sobre la pagina -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--esta etiqueta nos va a generar un titulo -->
+    <h1>Introduccion a Front</h1>
+    <h2>Html</h2>
+    <h3>Camila</h3>
+    <h4>Carolina</h4>
+    <h5>Daniela</h5>
+    <h6>Diana</h6>
+    <!--Etiqueta para hacer un quiebre horizontal -->
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, sed assumenda ducimus modi sunt harum
+        exercitationem eligendi in dolorum porro non vero nihil ex facere accusamus architecto eum, illum dignissimos.
+        <!--Etiqueta para salto de linea -->
+        <br>
+        <b>ipsum dolor sit amet</b> consectetur adipisicing elit. Excepturi, </em> distinctio voluptate corrupti odit,
+        in placeat sint, illo enim quia modi iusto quam maxime dolorum error voluptates delectus dicta velit aliquid!
+    </p>
+    <hr>
+    <!--Etiqueta de imagen -->
+    <img src="https://imagenes.expreso.ec/files/image_700_402/uploads/2021/04/28/6089e3c7433e9.png"> height="200px"
+    width="200px"
+    <!--Etiqueta para enlaces-->>
+    <a href="https://">Esta es la W3School</a>
+    <hr>
+    <h2>Listas</h2>
+    <h3>Lista ordenada de personajes de anime</h3>
+    <ol>
+        <li>Saitama</li>
+        <li>Goku</li>
+        <li>Vegeta</li>
+    </ol>
+    <video src="https://youtu.be/vnMt8VTRdHc"></video>
+    <table>
+        <tr>
+            <th>yatamis</th>
+            <th>juanita</th>
+            <th>carmen</th>
+        </tr>
+        <tr>
+            <th>21</th>
+            <th>17</th>
+            <th>24</th>
+        </tr>
+    </table>
+
+    <!--esto de aqui no me funciono-->
+    <picture>
+        <source media="(min-width:200px )" srcset="pexels_mateusz_feliksik_11789722.jpg">
+        <img src="pexels_mateusz_feliksik_11789722.jpg" alt="botellas plasticas" srcset="width:auto;">
+    </picture>
+
+    <P><s>QUEDAN SOLO 50 GALLETITAS</s></P>
+    <P>ya se acabaron!!</P>
+
+    <p>Los gatos locos tienen los ojos <span style="color:blueviolet">morados</span>, son raros, pero hay de esos.</p>
+
+    <ul>
+        <li>camello</li>
+        <li>caballo</li>
+        <li>camaleon</li>
+    </ul>
+
+    <!--TABLAS-->
+    <h3>tabla de personajes</h3>
+    <table>
+        <tr>
+            <!--estas primeras son los nombres de las columnas-->
+            <th>Nombre del personaje</th>
+            <th>Rol del personaje</th>
+        </tr>
+        <tr>
+            <!--y aqui van lo que conttiene cada fila de las tablas-->
+            <td>Urgot</td>
+            <td>Tanque</td>
+        </tr>
+        <tr>
+            <td>Lux</td>
+            <td>Mago</td>
+        </tr>
+        <tr>
+            <td>Atrox</td>
+            <td>Tanque</td>
+        </tr>
+    </table>
+
+    <!--Formularios-->
+    <hr>
+    <h3>Forms</h3>
+    <form method="post">
+        <label>Email</label>
+        <input type="email">
+        <label>Password</label>
+        <input type="password" placeholder="contraseña">
+        <br>
+        <button type="submit">Enviar</button>
+        <input type="checkbox" required>
+        <input type="button">
+    </form>
+
+    <!--Div y span-->
+    <hr>
+    <h3>Esto es un div</h3>
+    <div>
+        <ul>
+            <li>camello</li>
+            <li>caballo</li>
+            <li>camaleon</li>
+        </ul>
+        <!--el div funciona a nivel de bloque-->
+    </div>
+    <div style="color: darkmagenta;">
+        <h3>Lista ordenada de personajes de anime</h3>
+        <ol>
+            <li>Saitama</li>
+            <li>Goku</li>
+            <li>Vegeta</li>
+        </ol>
+    </div>
+    <hr>
+    <!--el span no se ocupa mucho -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p><span><button>Hazme click</button></span>
+    <p>Lorem ipsum dolor sit, <span><a href="www.google.com">esto es un link a google</a></span> amet consectetur
+        adipisicing elit.
+
+        <a href="https://www.google.cl"><button>a google</button></a>
+
+</body>
+
+</html>

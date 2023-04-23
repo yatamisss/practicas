@@ -1,0 +1,25 @@
+
+.img-fluid-personita{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+}
+
+.card-text-personalogin{
+    margin: auto;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+}
+
+.container div.col {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+

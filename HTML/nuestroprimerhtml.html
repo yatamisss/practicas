@@ -1,0 +1,134 @@
+<!--HTML significa Hypertext Markup Language-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/nuestroprimercss.css" />
+    <title>Introducción a Front</title>
+</head>
+
+<body>
+    <!--Este es un comentario-->
+    <hr>
+    <!--Estos son los títulos-->
+    <h1>Introducción a Front</h1>
+    <h2 class="nuevaEtiqueta">Html</h2>
+    <h3>Camila</h3>
+    <h4>Carolina</h4>
+    <h5>Daniela</h5>
+    <h6>Diana</h6>
+    <div class="divGeneral">
+        <div class="divImagen">
+            <!--Etiqueta de imagen-->
+            <img src="https://www.industriaanimacion.com/wp-content/uploads/2021/07/Personajes_de_Anime_mas_Populares.webp"
+                height="200px" width="200px">
+        </div>
+        <div class="divDescripcion">
+            <!--Etiqueta para hacer un quiebre horizontal-->
+            <hr>
+            <!--etiqueta de párrafo-->
+            <p class="parrafoDescripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                <!--Etiqueta para salto de línea-->
+                <br>
+                <b>Lorem Ipsum</b> <em>has been the industry's standard dummy text</em> ever since the 1500s, when an
+                unknown printer took a galley of type and scrambled it
+            </p>
+            <hr>
+        </div>
+    </div>
+    <!--Etiqueta para enlaces-->
+    <br>
+    <a href="https://www.w3schools.com/html/default.asp">Esta es la W3School</a>
+    <hr>
+    <h2>Listas</h2>
+    <!--Lista ordenada-->
+    <h3>Lista ordenada de personajes de anime</h3>
+    <ol>
+        <li><img src="https://static.wikia.nocookie.net/vsbattles/images/b/bb/Saitama%2C_Road_to_Hero.png/revision/latest/scale-to-width-down/290?cb=20220208040701"
+                height="10px" width="10px">Saitama</li>
+        <ul>
+            <li>Goku</li>
+            <li>Vegeta</li>
+        </ul>
+        <li>Gon</li>
+    </ol>
+    <hr>
+    <!--Lista desordenada-->
+    <h3>Lista desordenada de personajes del Lol</h3>
+    <ul>
+        <li>Urgot</li>
+        <li>Lux</li>
+        <li>Aatrox</li>
+    </ul>
+    <!--Tablas-->
+    <hr>
+    <h3>Tabla de personajes</h3>
+    <table>
+        <tr>
+            <th>Nombre del personaje</th>
+            <th>Rol del personaje</th>
+        </tr>
+        <tr>
+            <td>Urgot</td>
+            <td>Tanque</td>
+        </tr>
+        <tr>
+            <td>Lux</td>
+            <td>Mago</td>
+        </tr>
+        <tr>
+            <td>Aatrox</td>
+            <td>Tanque</td>
+        </tr>
+    </table>
+    <!--Formularios-->
+    <hr>
+    <h3>Forms</h3>
+    <form method="post">
+        <label>Texto x</label>
+        <input type="text">
+        <label>Email</label>
+        <input type="email">
+        <br>
+        <label>Password</label>
+        <input type="password" placeholder="contraseña" pattern=".{6,}"
+            title="La contraseña debe tener al menos 6 caracteres">
+        <br>
+        <button type="submit">Enviar</button>
+        <input type="checkbox" required="true">
+        <input type="button">
+    </form>
+    <!--Div y span-->
+    <hr>
+    <h3>Esto es un div</h3>
+    <div style="color: aquamarine;">
+        <h3>Lista desordenada de personajes del Lol</h3>
+        <ul>
+            <li>Urgot</li>
+            <li>Lux</li>
+            <li>Aatrox</li>
+        </ul>
+    </div>
+    <div style="color: blueviolet;">
+        <h3>Lista ordenada de personajes de anime</h3>
+        <ol>
+            <li><img src="https://static.wikia.nocookie.net/vsbattles/images/b/bb/Saitama%2C_Road_to_Hero.png/revision/latest/scale-to-width-down/290?cb=20220208040701"
+                    height="10px" width="10px">Saitama</li>
+            <ul>
+                <li>Goku</li>
+                <li>Vegeta</li>
+            </ul>
+            <li>Gon</li>
+        </ol>
+    </div>
+    <hr>
+    <p>Lorem Ipsum is simply <span><a href="pruebaHTML.html">dummy text of the printing an</a></span> typesetting
+        industry. </p>
+
+
+</body>
+
+</html>

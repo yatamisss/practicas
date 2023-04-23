@@ -1,0 +1,36 @@
+.lista{
+    margin-top: 60px;
+}
+
+.card-img{
+    width: 70%;
+    height: auto;
+}
+
+.container-2{
+    margin-top: 30px;
+}
+
+.row{
+    margin: 50px;
+}
+
+.color-menu{
+    background-image: linear-gradient(to right, #0dca93, #0ea57e, #178268, #1d5f50);
+}
+
+
+#menu a{
+    color:white !important;
+    font-weight: bold;
+}
+
+#menu img{
+    max-width: 180px;
+}
+
+.card-img-top{
+    object-fit: cover;
+    height: 300px;
+
+}

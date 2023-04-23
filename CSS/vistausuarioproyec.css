@@ -1,0 +1,66 @@
+body {
+    margin-top: 60px;
+}
+
+.card-img-top {
+    width: 50%;
+    /* Reduce el ancho de la imagen al 50% del tamaño original */
+    height: auto;
+    /* La altura se ajusta automáticamente para mantener la proporción de la imagen */
+    border-radius: 50%;
+    border: 10px solid #C0C0C0;
+}
+
+.card-img-top-2 {
+    width: 50%;
+    /* Reduce el ancho de la imagen al 50% del tamaño original */
+    height: auto;
+    /* La altura se ajusta automáticamente para mantener la proporción de la imagen */
+    border-radius: 50%;
+    border: 10px solid #ffbf00;
+}
+
+.card-img-top-3 {
+    width: 50%;
+    /* Reduce el ancho de la imagen al 50% del tamaño original */
+    height: auto;
+    /* La altura se ajusta automáticamente para mantener la proporción de la imagen */
+    border-radius: 50%;
+    border: 10px solid #Cd7f32;
+}
+
+.card{
+    border-color: white;
+}
+
+.card-body{
+    border-color: gray;
+}
+
+.col {
+    text-align: center;
+}
+
+.primer {
+    margin-top: -50px;
+    /* ajusta la cantidad de margen superior según sea necesario */
+}
+
+.segundo {
+    margin-left: 200px;
+    margin-right: -100px;
+
+}
+
+.tercero {
+    margin-left: -100px;
+    margin-right: 200px;
+}
+
+.card-intento{
+    background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+

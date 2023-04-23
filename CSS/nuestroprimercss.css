@@ -1,0 +1,68 @@
+/*esto es un comentario en css*/
+/*aqui estamos aplicando estilo a TODAS las etiquetas h1, cambiandole el color*/
+h1{
+    color: blue;
+}
+
+/*Aqui estamos cambiandole el estilo a todas las etiquetas h2 cambiando:
+-color
+-color del fondo
+-Altura
+-Ancho
+*/
+
+h2{
+    color:palevioletred;
+    background-color: black;
+    height: 100px;
+    width: 50%;
+}
+/*llamado a darlet estilo solo a una clase en particular*/
+.nuevaEtiqueta{
+    width: 80%;
+}
+
+/*como hacer que dos divs se pongan uno al lado del otro*/
+
+.divGeneral{
+    /*se le pide que ahora el div general trabajes con filas y además que funcione de manera flexible*/
+    flex-direction: row;
+    display: flex;
+}
+.divImagen{
+    /*com esto hacemos que el div se mantenga en su posicion*/
+    display: inline-block;
+}
+.divDescripcion{
+    float: right;
+    margin-left: 50px;
+}
+
+.parrafoDescripcion{
+    height: 150px;
+}
+
+/*darle estilo a los formularios*/
+
+form{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: #ccc;
+}
+
+form label{
+    width: 70px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+form input[type="password"],
+form input[type="email"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    margin: 8px;
+}

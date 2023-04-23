@@ -1,0 +1,16 @@
+.imagenbonita{
+    object-fit: cover;
+    height: 300px;
+    margin-top: 20px; 
+  }
+
+#memoria{
+    background: linear-gradient(to right, #0dca93, #0ea57e, #178268, #1d5f50);
+}
+
+
+.otracosa{
+    margin: 50px;
+}
+
+
